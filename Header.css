@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1db1da;
+    color: white;
+    padding: 15px 20px;
+  }
+  
+  /* Logo at the Top */
+  .logo img {
+    height: 120px;
+    width: 150 px;
+    margin-bottom: 10px;
+  }
+  
+  /* Navigation & Login/Signup Section */
+  .nav-auth-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    flex: 1;
+    text-align: center;
+    
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Auth Buttons */
+  .auth-buttons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 80px;
+    top: 65px;
+  }
+  
+  .auth-buttons button {
+    background: #0e7896;
+    border: none;
+    padding: 8px 15px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+  }
+  
+  .auth-buttons .signup {
+    background: #0e7896;
+  }
+  /* Hover Effects */
+.auth-buttons .login:hover {
+    background: #0d0973;
+  }
+  
+  .auth-buttons .signup:hover {
+    background: #0d0973;
+  }
+  
+  
